@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Displays the next 10 films to be shown at Newcastle Gate Cineworld.",
   "dependencies": {
+    "jquery": "^3.2.1",
     "ractive": "^0.8.9"
   },
   "devDependencies": {
@@ -25,8 +26,8 @@
     "test": "eslint src/**/*.js"
   },
   "repository": {
-    "type": "git",
+    "type": "git"
   },
   "author": "drewmiley",
-  "license": "ISC",
+  "license": "ISC"
 }

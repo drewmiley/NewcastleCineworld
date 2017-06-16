@@ -1,6 +1,6 @@
 var webpack = require('webpack');
 
-module.exports = {  
+module.exports = {
 	cache: true,
 	debug: true,
 	devtool: 'source-map',
@@ -42,6 +42,11 @@ module.exports = {
 		hot: true
 	},
 	plugins: [
-		new webpack.HotModuleReplacementPlugin()
+		new webpack.HotModuleReplacementPlugin(),
+		new webpack.ProvidePlugin({
+			'$': 'jquery',
+			'jQuery': 'jquery',
+			'window.jQuery': 'jquery'
+		}),
 	]
 };
