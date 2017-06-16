@@ -1,6 +1,17 @@
 <div class='container'>
-	<NameInput value='{{name}}' />
-	<p>
-		Name: {{name}}
-	</p>
+	<table class='table'>
+		<thead>
+			<tr>
+				<th>Film</th>
+				<th>Time</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{#each performances}}
+			<tr>
+				<td>{{film.title}}</td>
+				<td>{{time}}</td>
+			</tr>
+			{{/each}}
+		</tbody>
 </div>

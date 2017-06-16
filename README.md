@@ -1,6 +1,6 @@
 # Newcastle Gate Cineworld
 
-Displays the next 10 films to be shown at Newcastle Gate Cineworld.
+Displays the next films to be shown at Newcastle Gate Cineworld today.
 
 Ractive setup with bootstrap, babel, and webpack.
 
@@ -13,15 +13,6 @@ To start the development server with hot reloading enabled, simply run
 ```
 npm start
 ```
-
-## Folder structure
-
-    +-- app.html
-    +-- app.js
-    +-- components
-    |	+-- NameInput.js
-    |	+-- views
-    |	|	+-- name-input.html
 
 ## Deploying the app
 
