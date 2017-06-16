@@ -1,8 +1,7 @@
 {
-  "name": "prractice",
+  "name": "NewcastleGateCineworld",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Displays the next 10 films to be shown at Newcastle Gate Cineworld.",
   "dependencies": {
     "ractive": "^0.8.9"
   },
@@ -27,12 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drewmiley/pRactice.git"
   },
   "author": "drewmiley",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/drewmiley/pRactice/issues"
-  },
-  "homepage": "https://github.com/drewmiley/pRactice#readme"
 }

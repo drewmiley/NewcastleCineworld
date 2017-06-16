@@ -1,10 +1,12 @@
-# pRactice
+# Newcastle Gate Cineworld
 
-Ractive dummy project setup with bootstrap, babel, and webpack.
+Displays the next 10 films to be shown at Newcastle Gate Cineworld.
+
+Ractive setup with bootstrap, babel, and webpack.
 
 ## Running the app
 
-The app uses webpack-dev-server to aid development. Technologies used include babel, immutable for data storage, and mocha and chai for unit testing.
+The app uses webpack-dev-server to aid development.
 
 To start the development server with hot reloading enabled, simply run
 
@@ -29,4 +31,3 @@ To deploy the app to gh-pages, there are a couple of steps to follow.
 2. Delete everything except dist folder.
 3. Empty contents of dist folder to root directory.
 4. Commit and push to gh-pages.
-
